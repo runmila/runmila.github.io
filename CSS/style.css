@@ -286,12 +286,16 @@ p {text-align:center;}
 	width:100%;
 	background-color:#1B232D;
 	overflow:visible;
-	padding:30px 0 40px 20px;
+	padding:30px 20px 25px 20px;
 	}
 
-#partners-div img {width:250px; height:auto; margin-left:30px; margin-bottom:5px;}
+#partners-div img {width:250px; height:auto; margin-left:30px; margin-bottom:30px;}
 
-@media screen and (max-width: 50.5em) {#partners-div img {margin-bottom:10px;} }
+#partners-div #aiexpoafrica {width:300px;}
+#partners-div #aimedia {width:100px;}
+#partners-div #iipgh {width:150px; margin-left:40px;}
+
+@media screen and (max-width: 50.5em) {#partners-div img {margin-bottom:30px;} }
 
 #contacts { 
     width:100%;
